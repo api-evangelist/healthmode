@@ -1,7 +1,24 @@
 aid: healthmode
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/healthmode.png
 name: Healthmode
-description: Healthmode is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: HealthMode was a machine-learning digital medicine company, founded in 2017 in San Francisco
+  by Bradford Cross and Dan Karlin, that developed AI-enabled digital measurement methods to increase the
+  precision and speed of clinical research. Its techniques improved phenotype understanding, streamlined
+  screening and eligibility, enabled early detection of adverse events, and provided objective, low-burden
+  efficacy endpoints for next-generation clinical trials. HealthMode was acquired by MindMed in 2021 and
+  folded into MindMed's digital-medicine division (Albert); it no longer operates as an independent company,
+  maintains no standalone website or public developer/API surface, and none of its former domains resolve.
 url: https://raw.githubusercontent.com/api-evangelist/healthmode/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,21 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: mindmed
+x-acquired-date: '2021'
+x-enrichment: identity-only; company acquired/defunct, no live API surface (searched 2026-07-19)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Digital Health
+- Clinical Trials
+- Digital Biomarkers
+- Machine Learning
+- Digital Medicine
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
