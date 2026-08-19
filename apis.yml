@@ -30,7 +30,7 @@ x-status: defunct
 x-acquired-by: mindmed
 x-acquired-date: '2021'
 x-enrichment: identity-only; company acquired/defunct, no live API surface (searched 2026-07-19)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
