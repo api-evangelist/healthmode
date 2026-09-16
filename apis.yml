@@ -43,7 +43,7 @@ x-acquired-date: '2021'
 x-enrichment: identity-only; company acquired/defunct, no live API surface (searched 2026-07-19)
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Digital Health
@@ -52,6 +52,7 @@ tags:
 - Machine-Learning
 - Digital Medicine
 - Life Sciences
+- Defunct
 tags_raw:
 - Company
 - Digital Health
@@ -60,6 +61,7 @@ tags_raw:
 - Machine Learning
 - Digital Medicine
 - Life Sciences
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
